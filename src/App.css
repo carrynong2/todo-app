@@ -1,0 +1,53 @@
+body {
+  font-family: monospace;
+}
+.App {
+  text-align: center;
+  width: 640px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+input[type="text"] {
+  padding: 0.5rem 1rem;
+  background-color: #e9e9e9;
+  border: none;
+}
+
+.add-btn {
+  padding: 0.5rem 1rem;
+  background-color: #43cb28;
+  color: #fff;
+  border: none;
+}
+
+.delete-btn {
+  padding: 0.5rem 1rem;
+  background-color: #cb2828;
+  color: #fff;
+  border: none;
+}
+.complete-btn {
+  padding: 0.5rem 1rem;
+  background-color: #287fcb;
+  color: #fff;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    width: 250px;
+  }
+}
